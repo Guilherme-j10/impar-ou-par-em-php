@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+.global{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.global form input{
+    background-color: #055bfb;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    margin: 15px 0px;
+}
+
+.global .dupla{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.global .dupla .twice{
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+}
+
+.global .dupla .twice header{
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    padding: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
+
+.global .dupla .twice p{
+    margin: 15px 0px;
+    color: #fff;
+}
+
+.global .resultado{
+    width: 20%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #333;
+    margin-top: 20px;
+    padding: 12px;
+    color: #fff;
+}
